@@ -4,6 +4,7 @@ This repository presents our approach to predicting Urban Heat Island (UHI) inte
 
 ---
 <img src="https://i.imgur.com/QAUjwMd.png" style="width:50%;" />
+
 ## What We Did
 
 ### 1. **Feature Extraction**
