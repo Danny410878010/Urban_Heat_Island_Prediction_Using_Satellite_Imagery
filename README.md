@@ -3,7 +3,7 @@ The project is for UMD Info challenge.
 This repository presents our approach to predicting Urban Heat Island (UHI) intensity using satellite image data and machine learning. By combining remote sensing spectral bands, engineered features, and advanced modeling techniques, we achieved a highly accurate prediction model with an **R² of 0.94** on testing data.
 
 ---
-
+![UHI Process Diagram](https://i.imgur.com/QAUjwMd.png)
 ## What We Did
 
 ### 1. **Feature Extraction**
