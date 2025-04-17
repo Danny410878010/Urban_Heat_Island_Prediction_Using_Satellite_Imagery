@@ -1,12 +1,12 @@
 # Info-challenge-group-48
 The project for UMD Info challenge 
-# 🌆 Urban Heat Island (UHI) Prediction Using Satellite Imagery & XGBoost
+# Urban Heat Island (UHI) Prediction Using Satellite Imagery & XGBoost
 
 This repository presents our approach to predicting Urban Heat Island (UHI) intensity using satellite image data and machine learning. By combining remote sensing spectral bands, engineered features, and advanced modeling techniques, we achieved a highly accurate prediction model with an **R² of 0.94** on testing data.
 
 ---
 
-## 🔍 What We Did
+## What We Did
 
 ### 1. **Feature Extraction**
 We collected satellite image bands (B01–B12) in `.tiff` format to capture diverse spectral information relevant to land surface characteristics.
@@ -37,7 +37,7 @@ Our best XGBoost configuration:
 
 ### 5. **Buffered Region Averaging**
 Instead of predicting on single pixels, we averaged surrounding pixel values within a **2000-meter buffer**.  
-✅ **Critical Improvement**: R² increased from **0.53 to 0.93**  
+**Critical Improvement**: R² increased from **0.53 to 0.93**  
 This reflects the environmental influence on local UHI and better mimics real-world heat distribution.
 
 ### 6. **Feature Selection & Optimization**
