@@ -40,6 +40,7 @@ Instead of predicting on single pixels, we averaged surrounding pixel values wit
 This reflects the environmental influence on local UHI and better mimics real-world heat distribution.
 
 ### 6. **Feature Selection & Optimization**
+![correlation diagram](https://i.imgur.com/uFpJXid.png)
 By removing highly correlated and redundant features:
 - **Reduced multicollinearity**
 - Slight R² boost: **0.93 → 0.9414**
